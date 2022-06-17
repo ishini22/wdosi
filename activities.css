@@ -1,0 +1,160 @@
+.activity_header
+{
+    min-height:75vh;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/image\ 9.jpg);
+    background-position:center;
+    background-size: cover;
+    position:relative;
+    transition:.5s;
+}
+
+
+.activity_home{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    font-size: 30px;
+    
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 25px;
+    
+}
+/* styling for shiking*/
+.Hiking{
+    flex-basis:31%;
+    background: beige;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    
+}
+
+.activityone{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    justify-content:space-between ;
+}
+
+.activityone .sigiriya img{
+    width: 80%;
+    border-radius:10px;
+}
+
+.activityone .sigiriya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.activityone .ella img{
+    width: 70%;
+    border-radius:10px;
+}
+
+.activityone .ella {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity_home .h4{
+    font-size: 20px;
+    color: 484872;
+    margin:20px auto;
+}
+p{
+    color:#7c7c7c;
+    padding: 0px 40px;
+}
+/* styling for safari*/
+.Safari{
+    flex-basis:31%;
+    background: beige;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    
+}
+
+.activitytwo{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    justify-content:space-between ;
+}
+
+.activitytwo .udawalawe img{
+    width: 70%;
+    border-radius:10px;
+}
+
+.activitytwo .udawalawe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.activitytwo .yala img{
+    width: 100%;
+    border-radius:10px;
+    
+}
+
+.activitytwo .yala {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling for whale watching*/
+.Whale_Watching{
+    flex-basis:31%;
+    background: beige;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    
+}
+
+.activitythree{
+ 
+    align-items:center;
+    width: 100%;
+     ;
+}
+
+.activitythree .mirissa img{
+    width: 50%;
+    border-radius:10px;
+}
+
+.activitythree .mirissa {
+  
+  flex-direction: column;
+  align-items: center;
+
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    font-size: 20px;
+}
+

@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_1
+{
+    min-height:75vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/image_3.jpg);
+    background-position:center;
+    background-size: cover;
+    position:relative;
+}
+
+h2{
+    color: #000;
+    font-size: 30px;
+}
+
+/*wild attraction body*/
+.wildone{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    justify-content:space-between ;
+}
+
+.wildone .udawalawe img{
+    width: 80%;
+    border-radius:10px;
+}
+
+.wildone .udawalawe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.wildone .hikkaduwa img{
+    width: 70%;
+    border-radius:10px;
+}
+
+.wildone .hikkaduwa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wildone p{
+    color:#7c7c7c;
+    padding: 0px 40px;}
+
+
+    .wildtwo{
+        display:flex;
+        align-items:center;
+        width: 100%;
+        justify-content:space-between ;
+    }
+    
+    .wildtwo .yala img{
+        width: 60%;
+        border-radius:10px;
+    }
+    
+    .wildtwo .yala {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    
+    .wildtwo .sinharaja img{
+        width: 70%;
+        border-radius:10px;
+    }
+    
+    .wildtwo .sinharaja{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .wildtwo p{
+        color:#7c7c7c;
+        padding: 0px 40px;}
+    
+/*Table*/
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+}
+
